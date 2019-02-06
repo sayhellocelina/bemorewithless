@@ -1,0 +1,29 @@
+body {
+    /* font-family: 'Montserrat', sans-serif;  */
+}
+
+/* jumbotron */
+.jumbotron {
+    position: relative;
+    background: rgb(0, 0, 0) url("#") top -10em center;
+    width: auto;
+    height: auto; 
+    /* background-size: 150%; */
+    color: #000;
+    min-height: 320px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+
+}
+
+.jumbotron h1 {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 3rem;
+    text-align: left;
+}  
+
+.jumbotron p {
+    /* font-family: 'Montserrat', sans-serif; */
+    text-align: left;
+}  
