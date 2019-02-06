@@ -5,17 +5,30 @@ body {
 /* jumbotron */
 .jumbotron {
     position: relative;
-    background: rgb(0, 0, 0) url("images/the-creative-exchange-687925-unsplash.jpg") top -10em center;
     width: auto;
     height: auto; 
-    background-size: auto;
-    color: #000;
     min-height: 320px;
     padding-top: 20%;
     padding-bottom: 20%;
-
-
 }
+
+
+.bg-img {
+    background-image: url("images/the-creative-exchange-687925-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 640px;
+    z-index: -10;
+  }
+  
+  .bg-overlay
+  {
+    position: relative;
+    background-image: rgba(0,0,0,.5);
+    z-index: -5;
+  }
 
 .jumbotron h1 {
     /* font-family: 'Montserrat', sans-serif; */
