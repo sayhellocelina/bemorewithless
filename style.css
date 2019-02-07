@@ -41,3 +41,48 @@ body {
     text-align: left;
     font-weight: 200;
 }  
+
+
+/* Split Section */
+
+.section {
+    background-color: #F0F0F0;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.section .image-element img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.section .text-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+/* Media Queries */
+/* @media (min-width: 768px)
+.section .text-element {
+    padding: 6rem;
+
+}
+
+@media (min-width: 1200px)
+.col-xl-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+} */
