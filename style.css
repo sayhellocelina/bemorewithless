@@ -72,17 +72,57 @@ body {
 }
 
 
-/* Media Queries */
-/* @media (min-width: 768px)
-.section .text-element {
-    padding: 6rem;
+/* Cards */
 
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.75rem;
 }
 
-@media (min-width: 1200px)
-.col-xl-6 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-} */
+
+/* Instagram */
+  
+.img-fluid {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.instagram-box  {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #eee;
+  }
+  
+  .instagram-box:hover .overlay {
+    opacity: 1;
+  }
+  
+  .icon {
+    color: #444444;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
