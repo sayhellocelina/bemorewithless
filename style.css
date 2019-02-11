@@ -33,7 +33,7 @@ background-color: #ffffff;
 
 }
 
-.bg-light {
+.bg-light .fixed-top {
     background-color: #fff!important;
     height: 80px;
 
