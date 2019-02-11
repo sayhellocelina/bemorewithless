@@ -6,6 +6,13 @@ body {
 }
 
 /* Navigation Bar */
+
+.navbar-expand-lg {
+z-index: 1;
+background-color: #ffffff;
+
+} 
+
 .navbar-light .navbar-brand {
     font-size: 24px;
     font-weight: 600;
@@ -25,8 +32,9 @@ body {
 }
 
 .bg-light {
-    background-color: #fff!important;
+    background-color: #fffff!important;
     height: 80px;
+
 }
 
 
@@ -51,12 +59,12 @@ body {
     bottom: 0;
     left: 0;
     background-color: rgb(155, 155, 155, 0.3);
-    z-index: 1;
+    /* z-index: 2; */
 }
 
 .jumbotron > .inner {
     position: relative;
-    z-index: 2;
+    /* z-index: 3; */
 }
 
 
